@@ -90,9 +90,9 @@ ORDER BY enumlabel::planets;
 
 -- errors for adding labels
 ALTER TYPE planets ADD VALUE
-  'plutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutopluto';
-ERROR:  invalid enum label "plutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutopluto"
-DETAIL:  Labels must be 63 characters or less.
+  'plutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutopluto';
+ERROR:  invalid enum label "plutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutopluto"
+DETAIL:  Labels must be 127 characters or less.
 ALTER TYPE planets ADD VALUE 'pluto' AFTER 'zeus';
 ERROR:  "zeus" is not an existing enum label
 -- if not exists tests

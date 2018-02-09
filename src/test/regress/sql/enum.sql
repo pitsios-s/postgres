@@ -50,7 +50,7 @@ ORDER BY enumlabel::planets;
 
 -- errors for adding labels
 ALTER TYPE planets ADD VALUE
-  'plutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutopluto';
+  'plutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutoplutopluto';
 
 ALTER TYPE planets ADD VALUE 'pluto' AFTER 'zeus';
 
